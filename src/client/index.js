@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { validateURL } from './js/urlValidator'
 
 // Sass files
 import './styles/resets.scss'
@@ -15,6 +16,7 @@ console.log("CHANGE!!");
 
 
 export {
-    checkForURL,
-    handleSubmit
+    checkForName,
+    handleSubmit,
+    validateURL
    }
